@@ -1,5 +1,29 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
+## La forma de ejecutar el programa localmente.
+
+Primero hacer mvn package
+
+![](https://github.com/CarlosGomez380/Carlos-Gomez-ARSW-T2/blob/master/img/Package.PNG)
+
+Hacer mvn spring-boot:run
+
+## Para poder extenderlo
+
+Para poder extenderlo, se pueden inyectar diferentes tipos de servicios en la clase de AirportsFilterServices
+
+## Otros servicios
+
+Para implementar otros servicios en la clase HttpConections se puede implementar otra API con el servicio que queremos
+
+## Ejecutar
+
+![](https://github.com/CarlosGomez380/Carlos-Gomez-ARSW-T2/blob/master/img/Run.PNG)
+
+ ## Despliegue en Heroku
+ 
+ [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://carlos-gomez-arsw-t2.herokuapp.com/)
+
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
