@@ -3,7 +3,7 @@ var apiclient=(function(){
     function getAirportsByName(){
         axios({
             method:'get',
-            url: "https://carlos-gomez-arsw-t2.herokuapp.com/airports/" + $("#airportName").val(),
+            url: "http://carlos-gomez-arsw-t2.herokuapp.com/airports/" + $("#airportName").val(),
 
         })
         .then(response => app.createTable(response.data))
